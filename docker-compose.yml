@@ -1,0 +1,12 @@
+version: "3"
+services:
+  ecsdemo-nodejs:
+    image: hmanikkothu/ecs-nodejs-backend
+    ports:
+      - "3000:3000"
+    logging:
+      driver: awslogs
+      options:
+        awslogs-group: ecs-nodejs-backend
+        awslogs-region: ${AWS_REGION}
+        awslogs-stream-prefix: ecs-nodejs-backend
