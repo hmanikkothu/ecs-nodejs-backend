@@ -81,7 +81,7 @@ if [[ ${IP} == "" ]]; then
   IP=$(hostname -i)
 fi
 
-export CODE_HASH="$(cat code_hash.txt)"
+# export CODE_HASH="$(cat code_hash.txt)"
 export IP
 export AZ="${IP} in AZ-${zone}"
 

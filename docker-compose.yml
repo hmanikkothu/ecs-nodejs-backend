@@ -1,6 +1,6 @@
 version: "3"
 services:
-  ecsdemo-nodejs:
+  ecs-nodejs-backend:
     image: hmanikkothu/ecs-nodejs-backend
     ports:
       - "3000:3000"
