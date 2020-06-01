@@ -27,7 +27,7 @@ app.get("/", function (req, res) {
   });
   // res.send(`Node.js backend: Hello! from ${message} commit ${code_hash}`);
   res.send(
-    `Hello World! from ${ipaddress} in AZ-${az} which has been up for ` +
+    `V2 - codepipeline - from ${ipaddress} in AZ-${az} which has been up for ` +
       process.uptime() +
       "ms"
   );
@@ -39,7 +39,7 @@ app.get("/nodejs", function (req, res) {
   });
   // res.send(`Node.js backend: Hello! from ${message} commit ${code_hash}`);
   res.send(
-    `Hello World! from ${ipaddress} in AZ-${az} which has been up for ` +
+    `V2 - codepipeline - from ${ipaddress} in AZ-${az} which has been up for ` +
       process.uptime() +
       "ms"
   );
